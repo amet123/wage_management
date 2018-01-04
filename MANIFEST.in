@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wage_management *.css
+recursive-include wage_management *.csv
+recursive-include wage_management *.html
+recursive-include wage_management *.ico
+recursive-include wage_management *.js
+recursive-include wage_management *.json
+recursive-include wage_management *.md
+recursive-include wage_management *.png
+recursive-include wage_management *.py
+recursive-include wage_management *.svg
+recursive-include wage_management *.txt
+recursive-exclude wage_management *.pyc
